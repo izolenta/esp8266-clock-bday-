@@ -86,6 +86,7 @@ void updateTime() {
 void setup() {
   Serial.begin(115200);
   while (!Serial) delay(10);
+  Wire.begin(D4, D6);
   Serial.println("Beginning");
   if (!rtcBase.begin()) {
     Serial.println("Fail");

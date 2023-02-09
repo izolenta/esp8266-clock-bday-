@@ -2,7 +2,7 @@
 
 #include "../data/data.h"
 
-#define LED_PIN 0
+#define LED_PIN 13
 #define NUM_LEDS 90
 #define MAX_POWER_MILLIAMPS 2000
 #define LED_TYPE WS2812
